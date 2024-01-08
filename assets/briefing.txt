@@ -1,6 +1,52 @@
 #BRIEFING#
 
-yadayadayada
+*contact gegevens*
 
-#DEBRIEFING#
+Alpha Tango, Tobias van Veen
+tobias@alphatango.com
 
+achtergrond informatie
+
+strategie, ontwerp, bouwen voor website, app, product.
+digitale component op elk project, soms ook branding maar 90% van de gevallen komt er een site of app uit.
+
+-technologie en strategie
+-merk en communicatie
+-product en service innovatie
+-organisational design
+
+projects:
+-lightyear 
+-NL greenlabel
+-Justdiggit
+-Hallmark Worldwide
+
+opdracht omschrijving
+
+Caelor
+
+We willen een webpage (Homepage) voor het merk caelor waar we een nieuwe visuele identiteit voor hebben gemaakt
+
+notes:
+
+-Homepage
+-new design
+-caelor derived from cloud
+-archetype intersection of 'caregiver' and 'creator'
+    * caregiver= leven makkelijker en beter maken
+    * creator= innovative products
+
+-user-friendly and smooth UX
+-dusk and dawn inspired, opkomende zon
+-zwart/wit/oranje, blauw gradients/oranje, rood gradients/oranje
+-Jira Confluence Caelor 
+-styleguide in figma word gestuurd
+-mapje met fonts assets etc word ook gesstuurd
+
+-alle producten kunnen zien waarbij als je erop klikt dat je iets ziet met link naar marketplace
+-product carousel
+
+-atlassian soort backlog, process management
+
+-confluence wikipedia
+-jira 
