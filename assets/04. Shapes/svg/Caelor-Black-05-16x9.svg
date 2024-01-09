@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="1920" height="1080" transform="translate(1920 1080) rotate(180)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="2013.64" y1="445.72" x2="499.99" y2="853.24" gradientUnits="userSpaceOnUse">
+      <stop offset=".03" stop-color="#121212" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ff7300"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="2105.86" y1="2796.15" x2="810.52" y2="1471.71" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3f4142" stop-opacity="0"/>
+      <stop offset="1" stop-color="#3f4142"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="43.79" y1="177.49" x2="1118.76" y2="177.49" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <rect class="cls-6" width="1920" height="1080" transform="translate(1920 1080) rotate(180)"/>
+  <g class="cls-1">
+    <g>
+      <path class="cls-3" d="M2485.73-656.65c-1117.33,0-2023.1,905.77-2023.1,2023.1h2023.1V-656.65Z"/>
+      <g>
+        <path class="cls-4" d="M1120.79,715.97l1075.47-.99c1.09,1184.4-962.93,2148.86-2148.96,2149.95l-.99-1073.99c593.02-.54,1075.03-482.78,1074.48-1074.98Z"/>
+        <path class="cls-5" d="M1118.76,714.98c0-593.69-481.28-1074.98-1074.98-1074.98V714.98h1074.98Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

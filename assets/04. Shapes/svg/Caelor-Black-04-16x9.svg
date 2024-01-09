@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_4" data-name="Layer 4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="1920" height="1080" transform="translate(1920 1080) rotate(180)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="969.2" y1="724.66" x2="2872.2" y2="724.66" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e7eced" stop-opacity="0"/>
+      <stop offset="1" stop-color="#e7eced"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-23.44" y1="1227.01" x2="975.56" y2="1227.01" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff7400" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ff7400"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="1589.29" y1="2113.35" x2="620.26" y2="1428.93" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#333" stop-opacity="0"/>
+      <stop offset=".04" stop-color="#3f4142" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#3f4142"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="16.88" y1="249.16" x2="968.37" y2="249.16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3f4142" stop-opacity="0"/>
+      <stop offset="1" stop-color="#3f4142"/>
+    </linearGradient>
+  </defs>
+  <rect class="cls-7" width="1920" height="1080" transform="translate(1920 1080) rotate(180)"/>
+  <g class="cls-1">
+    <g>
+      <g>
+        <path class="cls-3" d="M970.07,725.1l-.87-951.94c1048.35-.97,1902.03,852.32,1903,1902.12l-950.62.88c-.48-524.9-427.32-951.54-951.5-951.06Z"/>
+        <path class="cls-5" d="M975.56,727.51c-551.73,0-999,447.27-999,999h999v-999Z"/>
+      </g>
+      <g>
+        <path class="cls-6" d="M969.38,725.51l951.94-.87c.97,1048.35-852.32,1902.03-1902.12,1903l-.88-950.62c524.9-.48,951.54-427.32,951.06-951.5Z"/>
+        <path class="cls-4" d="M968.37,724.91c0-525.5-426-951.5-951.5-951.5v951.5h951.5Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

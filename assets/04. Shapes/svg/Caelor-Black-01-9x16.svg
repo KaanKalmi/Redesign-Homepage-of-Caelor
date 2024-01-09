@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1310 1870">
+  <defs>
+    <style>
+      .cls-1 {
+        mask: url(#mask);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+    </style>
+    <mask id="mask" x="-199.72" y="-900.45" width="2150.47" height="3224.93" maskUnits="userSpaceOnUse">
+      <rect class="cls-6" x="-.17" y=".05" width="1310.7" height="1869.49"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="382.58" y1="1961.74" x2="1299.5" y2="1357.73" gradientUnits="userSpaceOnUse">
+      <stop offset=".03" stop-color="#121212" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ff7300"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="951.59" y1="6147.87" x2="-322.38" y2="5510.89" gradientTransform="translate(971.47 5894.96) rotate(-180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3f4142" stop-opacity="0"/>
+      <stop offset="1" stop-color="#3f4142"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-979.28" y1="4107.97" x2="95.7" y2="4107.97" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g class="cls-1">
+    <g>
+      <rect class="cls-5" x=".18" y="-.2" width="1310" height="1870"/>
+      <path class="cls-2" d="M1391.67,914.82c-526.13,0-952.64,426.51-952.64,952.64h952.64s0-952.64,0-952.64Z"/>
+      <g>
+        <path class="cls-3" d="M875.75,1248.51l-1075.47.99C-200.81,65.1,763.21-899.36,1949.24-900.45l.99,1073.99c-593.02.54-1075.03,482.78-1074.48,1074.98Z"/>
+        <path class="cls-4" d="M875.77,1249.5c0,593.69,481.28,1074.98,1074.98,1074.98v-1074.98H875.77Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

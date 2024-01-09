@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" x="0" width="1920" height="1080" transform="translate(1920 1080) rotate(-180)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="783.68" y1="275.16" x2="1673.61" y2="275.16" gradientTransform="translate(-233.38)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff7400" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ff7400"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="9471.76" y1="-3012.22" x2="8740.87" y2="-1929.84" gradientTransform="translate(3436.07 8678.29) rotate(-90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3f4142" stop-opacity="0"/>
+      <stop offset="1" stop-color="#3f4142"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="11553.39" y1="4020.47" x2="10410.05" y2="4020.47" gradientTransform="translate(12389.02 5263.78) rotate(-180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e7eced" stop-opacity="0"/>
+      <stop offset="1" stop-color="#e7eced" stop-opacity=".5"/>
+    </linearGradient>
+  </defs>
+  <rect class="cls-6" width="1920" height="1080"/>
+  <g class="cls-1">
+    <g>
+      <path class="cls-3" d="M1440.22,720.13c0-491.49-398.43-889.93-889.93-889.92v889.93s889.93,0,889.93,0Z"/>
+      <g>
+        <path class="cls-4" d="M1034.96,720.32l-1103.33,1.01c-1.12-1215.08,987.87-2204.53,2204.63-2205.65l1.01,1101.81c-608.38.56-1102.88,495.28-1102.32,1102.82Z"/>
+        <path class="cls-5" d="M1034.46,721.33c0,576.55,467.39,1043.94,1043.94,1043.94V721.33h-1043.94Z"/>
+      </g>
+    </g>
+  </g>
+  <rect class="cls-2" x="-3.28" y="4.52" width="1926.87" height="1082.87"/>
+</svg>

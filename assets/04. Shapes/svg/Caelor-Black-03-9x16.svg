@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1310 1870">
+  <defs>
+    <style>
+      .cls-1 {
+        mask: url(#mask);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+    </style>
+    <mask id="mask" x="-865.49" y="-344.76" width="2451.36" height="2676.22" maskUnits="userSpaceOnUse">
+      <rect class="cls-6" x="-1.07" y="1.11" width="1310.7" height="1869.49"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="1091.85" y1="2118.81" x2="1091.85" y2="1248.37" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff7400" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ff7400"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-4815.45" y1="-5784.97" x2="-3618.87" y2="-5784.97" gradientTransform="translate(6050.82 -2883.69) rotate(-90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3f4142" stop-opacity="0"/>
+      <stop offset="1" stop-color="#3f4142"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-3121.41" y1="-5835.92" x2="-3456.64" y2="-5142.61" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g class="cls-1">
+    <g>
+      <rect class="cls-5" x="-.72" y=".85" width="1310" height="1870" transform="translate(1308.56 1871.7) rotate(180)"/>
+      <g>
+        <path class="cls-2" d="M656.63,1248.37c0,480.73,389.71,870.44,870.44,870.44v-870.44h-870.44Z"/>
+        <path class="cls-3" d="M-865.49,1198.57V65.67c1247.64,0,2262.66,1016.43,2262.66,2265.79H265.84c0-624.68-507.51-1132.89-1131.33-1132.89Z"/>
+        <path class="cls-4" d="M656.63,1247.37H-140.53c0-877.91,715.21-1592.13,1594.33-1592.13V451.3c-439.56,0-797.16,357.11-797.16,796.06Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
