@@ -1,1 +1,10 @@
 @import url(nav.css);
+
+:root{
+    --bg-color:#fefefe;
+    --text-color:black;
+    --primary-color:red;
+    --accent-color:orange;
+    --heading: 'PPFormula-Medium', sans-serif;
+    --body-copy: 'PPFormula-Light', sans-serif;
+}
