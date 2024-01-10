@@ -1,0 +1,21 @@
+@import url(fonts.css);
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 1rem;
+}
+
+.logo{
+    height: 2em;
+}

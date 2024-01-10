@@ -1,10 +1,26 @@
 @import url(nav.css);
+@import url(fonts.css);
 
 :root{
-    --bg-color:#fefefe;
-    --text-color:black;
-    --primary-color:red;
-    --accent-color:orange;
+    --bg-color:#282E30;
+    --text-color:#FAFAFA;
+    --primary-color:#e7eced;
+    --secondary-color:#282e30;
+    --error-color:#751500;
+    --success-color:#006049;
+    --solar-orange:#FF7300;
     --heading: 'PPFormula-Medium', sans-serif;
     --body-copy: 'PPFormula-Light', sans-serif;
+}
+
+html{
+    margin: 0;
+    scroll-behavior: smooth;
+    background-color:var(--bg-color);
+    color:var(--text-color);
+    font-family: var(--body-copy);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading);
 }
