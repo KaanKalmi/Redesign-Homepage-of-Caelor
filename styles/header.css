@@ -2,11 +2,28 @@
 
 header{
     display: flex;
+    justify-content:space-between;
     align-items: center;
+    background-color: #FFBDDB;
 }
 
 .logo{
     height: 2em;
-    display: flex;
-        float: left;
+    float: left;
+    margin: .2em;
+}
+.demo{
+    float: right;
+    margin-right: .8em;
+    margin-top: .2em ;
+    & a{
+        background-color: #370000;
+        font-family: 'PPFormula-Medium', sans-serif;
+        border-radius: 1.5em;
+        padding-top: .1em;
+        padding-inline: .75em;
+        color: var(--text-color);
+        text-decoration: none;
+        text-align: center;
+    }
 }

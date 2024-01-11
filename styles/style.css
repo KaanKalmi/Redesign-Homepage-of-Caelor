@@ -5,7 +5,7 @@
 :root{
     --bg-color:#282E30;
     --text-color:#FAFAFA;
-    --primary-color:#e7eced;
+    --primary-color:#FFBDDB;
     --secondary-color:#282e30;
     --error-color:#751500;
     --success-color:#006049;
@@ -14,8 +14,8 @@
     --body-copy: 'PPFormula-Light', sans-serif;
 }
 
-html{
-    margin: 0;
+body{
+    margin: auto;
     scroll-behavior: smooth;
     background-color:var(--bg-color);
     color:var(--text-color);
@@ -24,10 +24,26 @@ html{
 
 h1, h2, h3, h4, h5, h6{
     font-family: var(--heading);
-    max-width: 45ch;
+    max-width: 55ch;
+    text-align: center;
+    padding: .2em;
 }
 
 ol{
     list-style: disc;
-    max-width: 55ch;
+    max-width: 50ch;
+}
+
+.content{
+    max-width: 75ch;
+    overflow: auto;
+    line-height: 1.2em;
+}
+.wave-container {  
+    background-color: #FFBDDB;
+    color: var(--secondary-color);
+}
+
+.carousel-container{
+    background-image: url(../assets/wave.svg);
 }
