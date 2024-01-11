@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,51 +8,89 @@
     <script defer src="scripts/main.js"></script>
     <title>Sprint 6</title>
 </head>
+
 <body>
-    <nav>
+    <header>
         <img src="assets/03. Logo and Wordmark/Caelor logo white.png" alt="Logo" class="logo">
         <img src="assets/03. Logo and Wordmark/Caelor wordmark White.png" alt="Logo" class="logo">
-        <ul>
-            <li>Confluence Apps</li>
-            <li>Jira Apps</li>
-        </ul>
-    </nav>
+    </header>
     <main>
         <section class="carousel-container">
-            <ul class="carousel">
-                <li> 
-                    <a href="#product"><img src="#" alt="Product"></a>
-                </li>
-                </ul>
+            <div class="carousel fade">
+                <img src="assets/Layer_1.svg" class="app">
+                <div class="text">Throphies</div>
+            </div>
+            <div class="carousel fade">
+                <img src="assets/layer_2.svg" class="app">
+                <div class="text">Pulse</div>
+            </div>
+
+            <div class="carousel fade">
+                <img src="assets/Layer_4.svg" class="app">
+                <div class="text">Linksy</div>
+            </div>
+
+            <div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
         </section>
+
         <section class="products" id="product">
-            <div> 
-                hier komt info over de programme enzo
+            <div>
+                trophies for Jira and Confluence Cloud brings healthy competition within colleagues to boost
+                productivity. Gamification is the app of game-design elements and game principles
+                to non-gaming contexts. While Gamification's concept has mostly been used in customer retention and
+                gaming, we believe that this concept also has its place within the business
+                context in general. 🔑 Features included:
+                <ol>
+                    <li>Manage push notifications</li>
+                    <li>Define the number of points for every Jira and Confluence events</li>
+                    <li>Create personalised achievements and awards</li>
+                    <li>Decide which users will participate in gamification</li>
+                    <li>Dashboard with charts and ranks</li>
+                    <li>User ranking by day, week, month, year, or overall</li>
+                    <li>Manually award users</li>
+                    <li>Achievement overview with progress bar</li>
+                    <li>Reset all points and settings</li>
+                    <li>Create gamification groups</li>
+                    <li>Custom events</li>
+                </ol>
             </div>
             <div class="product">
-                <img src="#" alt="Product">
-                <h3>Product Name</h3>
-                <p>Product Price</p>
+                <img src="assets/Layer_1.svg" alt="Product">
+                <h3>Throphies</h3>
+                <p>USD 5.00 a month (per user)</p>
             </div>
         </section>
     </main>
     <footer>
         <h4> About Caelor</h4>
         Highly engaging, innovative, and user-friendly Jira and Confluence apps for technical and business teams.
-        Optimize your internal processes, streamline your workflow, and power up your productivity by adding fun to the functionality of Atlassian products.
+        Optimize your internal processes, streamline your workflow, and power up your productivity by adding fun to the
+        functionality of Atlassian products.
         Bring your team together, drive your business forward and make a happy workplace happen!
+
         <h4> Support </h4>
-         Helpdesk
-         marketplace@caelor.com
-         https://caelor.atlassian.net/servicedesk/customer/portal/1
-         +4915117607506
+        Helpdesk
+        marketplace@caelor.com
+        https://caelor.atlassian.net/servicedesk/customer/portal/1
+        +4915117607506
+
         <h4> Contact </h4>
-         Caelor
-         Matrix Office Park
-         Slavonska avenija 1c
-         Zagreb Zagreb 10000
-         Croatia (Hrvatska)
-         marketplace@caelor.com
+        Caelor
+        Matrix Office Park
+        Slavonska avenija 1c
+        Zagreb Zagreb 10000
+        Croatia (Hrvatska)
+        marketplace@caelor.com
     </footer>
 </body>
+
 </html>

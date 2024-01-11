@@ -1,5 +1,6 @@
-@import url(nav.css);
-@import url(fonts.css);
+@import url(header.css);
+@import url(fonts.css); 
+@import url(carousel.css);
 
 :root{
     --bg-color:#282E30;
@@ -23,4 +24,10 @@ html{
 
 h1, h2, h3, h4, h5, h6{
     font-family: var(--heading);
+    max-width: 45ch;
+}
+
+ol{
+    list-style: disc;
+    max-width: 55ch;
 }
