@@ -1,12 +1,12 @@
 .pink {  
-    background-color: #FFBDDB;
+    background-color: #FFD6E0;
     color: var(--secondary-color);
 }
 
 .content{
     max-width: 75ch;
     overflow: auto;
-    line-height: 1.2em;
+    line-height: 1em;
     padding: 1em;
     white-space: pre-line;
 }

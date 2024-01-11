@@ -32,9 +32,9 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
     font-size: 80px;
-    background: linear-gradient(to top right, #370000 25%, #FF1D25 75%, #E20015 100%);
-    color: transparent;
+    background: linear-gradient(90deg, rgba(194,0,30,1) 0%, rgba(198,2,30,1) 35%, rgba(254,16,21,1) 100%);    
     background-size: 100%;
+    color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
     line-height: 1.2em;
@@ -42,7 +42,13 @@ h1{
     margin-bottom: 0em;
 }
 
-h2, h3, h4, h5, h6{
+h2{
     font-size: 40px;
-    margin: .5em auto;
+    margin: .8em auto;
+    background: linear-gradient(90deg, rgba(0,54,97,1) 0%, rgba(0,59,255,1) 35%, rgba(0,175,255,1) 100%);    
+    color: transparent;
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    line-height: 1.2em;
 }

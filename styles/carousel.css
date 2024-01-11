@@ -3,7 +3,7 @@
     position: relative;
     margin: auto;
     padding-top: 10px;
-    background-image: url(../assets/wave.svg);
+    background-image: url(../assets/waves.svg);
     background-repeat: repeat;
 }
 
@@ -13,12 +13,13 @@
     align-items: center;
     margin: auto;
     padding-top: 10px;
+    height: 120px;
 }
 
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 60%;
     width: auto;
     margin-top: -22px;
     padding: 16px;

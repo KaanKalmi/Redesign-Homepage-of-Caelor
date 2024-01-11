@@ -4,7 +4,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FFBDDB;
+    background-color: #FFD6E0;
 }
 
 .logo{
@@ -22,6 +22,11 @@ header{
       -webkit-transform: translateZ(-1400px) translateY(-800px);
               transform: translateZ(-1400px) translateY(-800px);
       opacity: 0;
+    }
+    57.5% {
+      -webkit-transform: translateZ(140px) translateY(80px);
+              transform: translateZ(140px) translateY(80px);
+      opacity: 1;
     }
     100% {
       -webkit-transform: translateZ(0) translateY(0);
