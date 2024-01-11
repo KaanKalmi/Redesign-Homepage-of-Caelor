@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #003bff;
+      }
+
+      .cls-2 {
+        fill: #002a46;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #d1d1d1;
+        stroke-miterlimit: 10;
+        stroke-width: 1.19px;
+      }
+
+      .cls-4 {
+        opacity: .2;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" width="384" height="384"/>
+  <g class="cls-4">
+    <rect class="cls-3" width="384" height="384"/>
+    <line class="cls-3" x1="384" y1="24" y2="24"/>
+    <line class="cls-3" x1="384" y1="48" y2="48"/>
+    <line class="cls-3" x1="384" y1="72" y2="72"/>
+    <line class="cls-3" x1="384" y1="96" y2="96"/>
+    <line class="cls-3" x1="384" y1="120" y2="120"/>
+    <line class="cls-3" x1="384" y1="144" y2="144"/>
+    <line class="cls-3" x1="384" y1="168" y2="168"/>
+    <line class="cls-3" x1="384" y1="192" y2="192"/>
+    <line class="cls-3" x1="384" y1="216" y2="216"/>
+    <line class="cls-3" x1="384" y1="240" y2="240"/>
+    <line class="cls-3" x1="384" y1="264" y2="264"/>
+    <line class="cls-3" x1="384" y1="288" y2="288"/>
+    <line class="cls-3" x1="384" y1="312" y2="312"/>
+    <line class="cls-3" x1="384" y1="336" y2="336"/>
+    <line class="cls-3" x1="384" y1="360" y2="360"/>
+    <line class="cls-3" x1="24" y1="384" x2="24"/>
+    <line class="cls-3" x1="48" y1="384" x2="48"/>
+    <line class="cls-3" x1="72" y1="384" x2="72"/>
+    <line class="cls-3" x1="96" y1="384" x2="96"/>
+    <line class="cls-3" x1="120" y1="384" x2="120"/>
+    <line class="cls-3" x1="144" y1="384" x2="144"/>
+    <line class="cls-3" x1="168" y1="384" x2="168"/>
+    <line class="cls-3" x1="192" y1="384" x2="192"/>
+    <line class="cls-3" x1="216" y1="384" x2="216"/>
+    <line class="cls-3" x1="240" y1="384" x2="240"/>
+    <line class="cls-3" x1="264" y1="384" x2="264"/>
+    <line class="cls-3" x1="288" y1="384" x2="288"/>
+    <line class="cls-3" x1="312" y1="384" x2="312"/>
+    <line class="cls-3" x1="336" y1="384" x2="336"/>
+    <line class="cls-3" x1="360" y1="384" x2="360"/>
+  </g>
+  <path class="cls-1" d="m288.1,335.91c-53.02,0-96-42.98-96-96h96s0,96,0,96Z"/>
+  <rect class="cls-1" x="96.1" y="47.91" width="96" height="288"/>
+</svg>

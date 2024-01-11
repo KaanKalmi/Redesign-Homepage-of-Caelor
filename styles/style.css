@@ -1,6 +1,7 @@
 @import url(header.css);
 @import url(fonts.css); 
 @import url(carousel.css);
+@import url(hero.css);
 
 :root{
     --bg-color:#282E30;
@@ -15,7 +16,7 @@
 }
 
 body{
-    margin: auto;
+    margin: 0;
     scroll-behavior: smooth;
     background-color:var(--bg-color);
     color:var(--text-color);
@@ -29,21 +30,4 @@ h1, h2, h3, h4, h5, h6{
     padding: .2em;
 }
 
-ol{
-    list-style: disc;
-    max-width: 50ch;
-}
 
-.content{
-    max-width: 75ch;
-    overflow: auto;
-    line-height: 1.2em;
-}
-.wave-container {  
-    background-color: #FFBDDB;
-    color: var(--secondary-color);
-}
-
-.carousel-container{
-    background-image: url(../assets/wave.svg);
-}

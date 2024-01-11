@@ -1,0 +1,17 @@
+.pink {  
+    background-color: #FFBDDB;
+    color: var(--secondary-color);
+}
+
+.content{
+    max-width: 75ch;
+    overflow: auto;
+    line-height: 1.2em;
+    padding: 1em;
+    white-space: pre-line;
+}
+
+ol{
+    list-style: disc;
+    max-width: 50ch;
+}

@@ -3,6 +3,8 @@
     position: relative;
     margin: auto;
     padding-top: 10px;
+    background-image: url(../assets/wave.svg);
+    background-repeat: repeat;
 }
 
 .app {
