@@ -2,29 +2,31 @@
 
 header{
     display: flex;
-    justify-content:space-between;
+    justify-content: center;
     align-items: center;
     background-color: #FFBDDB;
 }
 
 .logo{
-    height: 2em;
-    float: left;
+    width: 145px;
     margin: .2em;
 }
 
-.demo{
-    float: right;
-    margin-right: .8em;
-    margin-top: .2em ;
-    & a{
-        background-color: #370000;
-        font-family: 'PPFormula-Medium', sans-serif;
-        border-radius: 1.5em;
-        padding-top: .1em;
-        padding-inline: .75em;
-        color: var(--text-color);
-        text-decoration: none;
-        text-align: center;
-    }
+.animate{
+    -webkit-animation:animate .6s cubic-bezier(.25,.46,.45,.94) both;
+    animation:animate .6s cubic-bezier(.25,.46,.45,.94) both
 }
+
+  @keyframes animate {
+    0% {
+      -webkit-transform: translateZ(-1400px) translateY(-800px);
+              transform: translateZ(-1400px) translateY(-800px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  

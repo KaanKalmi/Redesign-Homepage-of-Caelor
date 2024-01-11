@@ -1,14 +1,14 @@
-/*@font-face {
+@font-face {
     font-family: 'PPFormula-CondensedBlack';
-    src: url(../assets/01.\ Fonts/PPFormula-CondensedBlack.otf);
+    src: url(../assets/fonts/PPFormula-CondensedBlack.otf);
 }
 
 @font-face {
     font-family: 'PPFormula-Light';
-    src: url(../assets/01.\ Fonts/PPFormula-Light.otf);
+    src: url(../assets/fonts/PPFormula-Light.otf);
 }
 
 @font-face {
     font-family: 'PPFormula-medium';
-    src: url(../assets/01.\ Fonts/PPFormula-Medium.otf);
+    src: url(../assets/fonts/PPFormula-Medium.otf);
 }

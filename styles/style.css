@@ -21,13 +21,28 @@ body{
     background-color:var(--bg-color);
     color:var(--text-color);
     font-family: var(--body-copy);
+    font-size: 20px;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: var(--heading);
     max-width: 55ch;
     text-align: center;
-    padding: .2em;
 }
 
+h1{
+    font-size: 80px;
+    background: linear-gradient(to top right, #370000 25%, #FF1D25 75%, #E20015 100%);
+    color: transparent;
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    line-height: 1.2em;
+    margin-top: .2em;
+    margin-bottom: 0em;
+}
 
+h2, h3, h4, h5, h6{
+    font-size: 40px;
+    margin: .5em auto;
+}
