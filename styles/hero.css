@@ -1,14 +1,23 @@
-.pink-background {  
-    background-color: #FFD6E0;
+.glass-background {  
+    background-color: var(--bg-color) ;
+    background: url("../assets/shapes/Caelor-Red-03-16x9-01.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
     color: var(--secondary-color);
 }
 
 .content{
+
     max-width: 75ch;
     overflow: auto;
     line-height: 1em;
     padding: 1em;
     white-space: pre-line;
+}
+
+.floating-box{
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
 ol{

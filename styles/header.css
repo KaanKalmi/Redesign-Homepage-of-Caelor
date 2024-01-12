@@ -1,37 +1,39 @@
 @import url(fonts.css);
 
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFD6E0;
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
-.logo{
-    width: 145px;
-    margin: .2em;
+.logo {
+  width: 145px;
+  margin: .2em;
 }
 
-.animate{
-    -webkit-animation:animate .6s cubic-bezier(.25,.46,.45,.94) both;
-    animation:animate .6s cubic-bezier(.25,.46,.45,.94) both
+.animate {
+  -webkit-animation: animate .6s cubic-bezier(.25, .46, .45, .94) both;
+  animation: animate .6s cubic-bezier(.25, .46, .45, .94) both
 }
 
-  @keyframes animate {
-    0% {
-      -webkit-transform: translateZ(-1400px) translateY(-800px);
-              transform: translateZ(-1400px) translateY(-800px);
-      opacity: 0;
-    }
-    57.5% {
-      -webkit-transform: translateZ(140px) translateY(80px);
-              transform: translateZ(140px) translateY(80px);
-      opacity: 1;
-    }
-    100% {
-      -webkit-transform: translateZ(0) translateY(0);
-              transform: translateZ(0) translateY(0);
-      opacity: 1;
-    }
+@keyframes animate {
+  0% {
+    -webkit-transform: translateZ(-1400px) translateY(-800px);
+    transform: translateZ(-1400px) translateY(-800px);
+    opacity: 0;
   }
-  
+
+  57.5% {
+    -webkit-transform: translateZ(140px) translateY(80px);
+    transform: translateZ(140px) translateY(80px);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}

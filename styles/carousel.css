@@ -1,8 +1,9 @@
 .carousel-container {
     max-width: 1000px;
     position: relative;
-    margin: auto;
-    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
     background-image: url(../assets/waves.svg);
     background-repeat: repeat;
 }
