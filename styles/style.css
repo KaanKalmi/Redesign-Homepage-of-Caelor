@@ -1,7 +1,21 @@
 @import url(header.css);
-@import url(fonts.css); 
 @import url(carousel.css);
 @import url(hero.css);
+
+@font-face {
+    font-family: 'PPFormula-CondensedBlack';
+    src: url(../assets/fonts/PPFormula-CondensedBlack.otf);
+}
+
+@font-face {
+    font-family: 'PPFormula-Light';
+    src: url(../assets/fonts/PPFormula-Light.otf);
+}
+
+@font-face {
+    font-family: 'PPFormula-medium';
+    src: url(../assets/fonts/PPFormula-Medium.otf);
+}
 
 :root{
     --bg-color:#282E30;
