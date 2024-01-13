@@ -1,0 +1,16 @@
+footer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.footer-element{
+    padding: 16px;
+    font-size: 12px;
+    list-style-type: none;
+    text-decoration: none;
+
+    & a{
+        color: var(--text-color);
+    }
+}

@@ -11,7 +11,7 @@
 
 <body>
     <nav>
-        <img src="assets/Logo/Caelor-Logo.svg" class="logo">
+        <img src="assets/Logo/Caelor-Logo.svg" class="logo" alt=" ">
         <ul>
             <li><a href="#product">Products</a></li>
         </ul>
@@ -21,7 +21,7 @@
             <h1> Caelor </h1>
         </div>
     </header>
-            <section class="content wave">
+            <section class="introduction wave">
                 <p> <strong>highly</strong> engaging
 
                     innovative
@@ -29,23 +29,20 @@
                     and user-friendly </p>
             </section>
     <main>
-        <section class="carousel-container">
+        <section class="carousel-container" id="product">
             <h2>Confluence Apps</h2>
-            <div class="carousel fade">
-                <img src="assets/Icons/Caelor-Logos_Confluence - Trophies - App Icon.svg" alt="Trophies for Confluence"
-                    class="app">
-                <div class="text">Throphies</div>
-            </div>
-            <div class="carousel fade">
-                <img src="assets/Icons/Caelor-Logos_Confluence - Pulse - App Icon.svg" alt="Pulse for Confluence"
-                    class="app">
-                <div class="text">Pulse</div>
-            </div>
-            <div class="carousel fade">
-                <img src="assets/Icons/Caelor-Logos_Confluence - Optic - App Icon.svg" alt="Optic for Confluence"
-                    class="app">
-                <div class="text">Optic</div>
-            </div>
+            <figure class="carousel fade">
+                <img src="assets/Icons/Caelor-Logos_Confluence - Trophies - App Icon.svg" alt="Trophies for Confluence" class="app">
+                <figcaption class="text">Throphies <h5>USD 5.00 a month (per user)</h5> </figcaption>
+            </figure>
+            <figure class="carousel fade">
+                <img src="assets/Icons/Caelor-Logos_Confluence - Pulse - App Icon.svg" alt="Pulse for Confluence" class="app">
+                <figcaption class="text">Pulse <h5>USD 5.00 a month (per user)</h5></figcaption>
+            </figure>
+            <figure class="carousel fade">
+                <img src="assets/Icons/Caelor-Logos_Confluence - Optic - App Icon.svg" alt="Optic for Confluence" class="app">
+                <figcaption class="text">Optic <h5>USD 5.00 a month (per user)</h5></figcaption>
+            </figure>
             <div>
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -56,13 +53,12 @@
                 <span class="dot" onclick="currentSlide(3)"></span>
             </div>
         </section>
-        <section class="products" id="product">
-            <div class="content">
+        <article class="content">
                 trophies for Jira and Confluence Cloud brings healthy competition within colleagues to boost productivity.
 
                 While Gamification's concept has mostly been used in customer retention and gaming, we believe that this concept also has its place within the business context in general.
-                <div>
-                    🔑 Features included:
+                    
+                🔑 Features included:
                     <ol>
                         <li>Manage push notifications</li>
                         <li>Define the number of points for every Jira and Confluence events</li>
@@ -76,28 +72,30 @@
                         <li>Create gamification groups</li>
                         <li>Custom events</li>
                     </ol>
-                </div>
-            </div>
-            <div class="product">
-                <img src="assets/Icons/Caelor-Logos_Confluence - Trophies - App Icon.svg" alt="Product" class="app">
-                <h3>Trophies</h3>
-                <p>USD 5.00 a month (per user)</p>
-            </div>
-        </section>
+        </article>
     </main>
-    <footer class="content">
-        <h4> Support </h4>
-        Helpdesk
-        marketplace@caelor.com
-        https://caelor.atlassian.net/servicedesk/customer/portal/1
-        +4915117607506
-        <h4> Contact </h4>
-        Caelor
-        Matrix Office Park
-        Slavonska avenija 1c
-        Zagreb Zagreb 10000
-        Croatia (Hrvatska)
-        marketplace@caelor.com
+    <footer>
+        <dl class="footer-element">
+            <dt>Contact</dt>
+            <dd><a href="mailto:marketplace@caelor.com">Mail Us</a></dd>
+            <dd>Matrix Office Park, Slavonska avenija 1c Zagreb 10000, Croatia (Hrvatska)</dd>
+            <dd><a href="tel:+4915117607506">Call Us</a></dd>
+        </dl>
+        <dl class="footer-element">
+            <dt>Links</dt>
+            <dd><a href="https://marketplace.atlassian.com/vendors/1219251/caelor">Caelor Apps</a></dd>
+            <dd><a href="https://caelor.com/partner/">Partners</a></dd>
+            <dd><a href="http://caelor.com/careers">Careers</a></dd>
+            <dd><a href="https://caelor.atlassian.net/wiki/spaces/MAC/pages/601588308/Get+Inspired+Sample+Pages">Use Case</a></dd>
+            <dd><a href="https://caelor.atlassian.net/wiki/spaces/HOME/pages/682721281/Caelor+Documentation">Documentation</a></dd>
+        </dl>
+        <dl class="footer-element">
+            <dt>Follow us on</dt>
+            <dd><a href="https://www.youtube.com/channel/UCj7i3AEw3Y8VojZvkyHplSQ">Youtube</a></dd>
+            <dd><a href="https://www.tiktok.com/@caelor.apps?_t=8Xmqgru23uQ&_r=1">TikTok</a></dd>
+            <dd><a href="https://www.linkedin.com/company/caelor/">LinkedIn</a></dd>
+            <dd><a href="https://www.instagram.com/caelor.app/">Instagram</a></dd>
+        </dl>
     </footer>
 </body>
 
