@@ -1,4 +1,4 @@
-/*Imports*/
+/* || Imports */
 @import url(header.css);
 @import url(hero.css);
 @import url(footer.css);
@@ -16,7 +16,7 @@
     src: url(../assets/fonts/PPFormula-Medium.otf);
 }
 
-/*General styling*/
+/* || General Styling */
 :root{
     --bg-color:#262e30;
     --text-color:#FFF;

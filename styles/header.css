@@ -1,13 +1,17 @@
-/*Small size screen*/
+/* || Small Screen */
 nav{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: var(--bg-color);
   height: 80px;
+  margin-top: .75em;
   & ul{
     list-style-type: none;
     margin: auto;
+  }
+  & li{
+    margin-block: .5em;
   }
   & a{
     text-decoration: none;
@@ -31,19 +35,22 @@ header {
   height: 200px;
 }
 
-/*Medium size screen*/
-@media screen and (max-width: 1024px) {
+/* || Medium Screen */
+@media screen and (min-width: 450px) and (max-width: 1024px) {
   nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: var(--bg-color);
     height: 120px;
+    margin-top: .5em;
     & ul{
+      display: flex;
       list-style-type: none;
       margin: auto;
     }
     & a{
+      margin-inline-end: 2em;
       text-decoration: none;
       text-transform: uppercase;
       color: var(--text-color);
@@ -66,7 +73,7 @@ header {
   }
 }
 
-/*Animation*/
+/* || Animation */
 .wave{
   background-color: var(--bg-color);
 }

@@ -1,4 +1,4 @@
-/*Small size screens*/
+/* || Small Screen */
 footer {
     display: flex;
     flex-direction: column;
@@ -24,8 +24,8 @@ footer {
 }
 
 
-/*Medium size screens*/
-@media screen and (max-width: 1024px) {
+/* || Medium Screen */
+@media screen and (min-width: 420px) and (max-width: 1024px) {
     footer {
         display: flex;
         flex-direction: row;
