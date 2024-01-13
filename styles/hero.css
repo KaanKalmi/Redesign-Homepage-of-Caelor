@@ -1,14 +1,40 @@
-@media screen and (max-width: 425px) {
+/*Small size screens*/
+.introduction {
+    height: 175px;
+    text-align: center;
+    line-height: 2.6em;
+    font-size: 20px;
+}
+
+.content {
+    max-width: 45ch;
+    overflow: auto;
+    line-height: 1.4em;
+    font-size: 20px;
+    padding: 1em;
+    white-space: pre-line;
+}
+
+ol {
+    list-style: disc;
+    line-height: 1.2em;
+    padding: .7em;
+    max-width: 30ch;
+}
+
+/*Medium size screens*/
+@media screen and (max-width: 1024px) {
 
     .introduction {
-        height: 175px;
+        height: 200px;
+        margin: auto;
         text-align: center;
-        line-height: 2.6em;
         font-size: 20px;
+        padding: 20px;
     }
 
     .content {
-        max-width: 45ch;
+        max-width: 75ch;
         overflow: auto;
         line-height: 1.4em;
         font-size: 20px;
@@ -23,6 +49,7 @@
         max-width: 30ch;
     }
 }
+
 
 /*Carousel*/
 .carousel-container {
