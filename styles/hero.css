@@ -1,11 +1,3 @@
-.glass-background {  
-    background-color: var(--bg-color) ;
-    background: url("../assets/shapes/Caelor-Black-02-9x16.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: var(--text-color);
-}
-
 .content{
     max-width: 75ch;
     overflow: auto;

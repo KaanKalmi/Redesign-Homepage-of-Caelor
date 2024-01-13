@@ -1,20 +1,45 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  height: 80px;
+  & ul{
+    list-style-type: none;
+    margin: auto;
+  }
+  & a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    font-weight: 600;
+  }
+
+  & .logo {
+    width: 125px;
+    margin: .2em;
+  }
+}
+
 header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: var(--primary-color);
+  height: 200px;
 }
 
-.logo {
-  width: 145px;
-  margin: .2em;
+.wave{
+  background: url(../assets/waves.svg);
 }
 
-.animate {
-  -webkit-animation: animate .6s cubic-bezier(.25, .46, .45, .94) both;
-  animation: animate .6s cubic-bezier(.25, .46, .45, .94) both
+.entrance {
+  -webkit-animation: entrance .6s cubic-bezier(.25, .46, .45, .94) both;
+  animation: entrance .6s cubic-bezier(.25, .46, .45, .94) both
 }
 
-@keyframes animate {
+@keyframes entrance {
   0% {
     -webkit-transform: translateZ(-1400px) translateY(-800px);
     transform: translateZ(-1400px) translateY(-800px);
