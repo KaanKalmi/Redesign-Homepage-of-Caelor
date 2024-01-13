@@ -74,10 +74,6 @@ header {
 }
 
 /* || Animation */
-.wave{
-  background-color: var(--bg-color);
-}
-
 .entrance {
   -webkit-animation: entrance 1s cubic-bezier(.25, .46, .45, .94) both;
   animation: entrance 1s cubic-bezier(.25, .46, .45, .94) both
