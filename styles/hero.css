@@ -23,7 +23,7 @@ ol {
 }
 
 /*Medium size screens*/
-@media screen and (max-width: 1024px) {
+@media screen and (min-width:450px) and (max-width: 1024px) {
 
     .introduction {
         height: 200px;
