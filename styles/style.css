@@ -6,14 +6,17 @@
 @font-face {
     font-family: 'PPFormula-CondensedBlack';
     src: url(../assets/fonts/PPFormula-CondensedBlack.otf);
+    font-display: swap;
 }
 @font-face {
     font-family: 'PPFormula-Light';
     src: url(../assets/fonts/PPFormula-Light.otf);
+    font-display: swap;
 }
 @font-face {
     font-family: 'PPFormula-medium';
     src: url(../assets/fonts/PPFormula-Medium.otf);
+    font-display: swap;
 }
 
 /* || General Styling */
