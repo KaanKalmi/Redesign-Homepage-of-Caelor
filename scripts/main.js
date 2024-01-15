@@ -1,3 +1,4 @@
+/*Slideshow JS moet verandert worden, geen JS in HTML, interactie voor extra info moet erbij komen, event listeners etc de 3 stappenplan dus*/
 let slideIndex = 1;
 updateSlide(slideIndex);
 
@@ -21,3 +22,5 @@ function updateSlide(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+//doe een event listener op de button dots,dot span en dan op de <article> een class togglen met display:block en display:none
