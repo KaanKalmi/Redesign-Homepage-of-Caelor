@@ -73,6 +73,44 @@ header {
   }
 }
 
+/* || Large Screen */
+@media screen and (min-width: 1024px) {
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--bg-color);
+    height: 120px;
+    margin-top: .5em;
+    & ul{
+      display: flex;
+      list-style-type: none;
+      margin: auto;
+    }
+    & a{
+      margin-inline-end: 2em;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: var(--text-color);
+      font-weight: 600;
+    }
+  
+    & .logo {
+      width: 175px;
+      margin: .5em;
+    }
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    height: 250px;
+  }
+}
+
 /* || Animation */
 .entrance {
   -webkit-animation: entrance 1s cubic-bezier(.25, .46, .45, .94) both;
