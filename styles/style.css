@@ -47,19 +47,31 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{
-    font-size: 80px;
+    font-size: 40px;
     color: var(--text-color);
 }
 
 h2{
-    font-size: 40px;
+    font-size: 20px;
     margin: .8em auto;
     color: #00D1C3;
 }
 
 p{
-    font-size: 40px;
+    font-size: 20px;
     & strong{
         color: var(--solar-orange);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h1{
+        font-size: 80px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    p{
+        font-size: 40px;
     }
 }
