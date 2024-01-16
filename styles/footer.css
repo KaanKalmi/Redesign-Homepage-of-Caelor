@@ -56,3 +56,36 @@ footer {
         
     }
 }
+
+/* || Large Screen */
+@media screen and (min-width: 1024px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .footer-element {
+        flex: auto;
+        padding: 15px;
+        max-width: 75ch;
+        font-size: 20px;
+        list-style-type: none;
+        text-decoration: none;
+
+        & dt {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 1em;
+            text-align: left;
+        }
+
+        & dd {
+            margin-left: 0;
+            line-height: 1.4rem;
+
+            & a { color: var(--text-color); }
+        }
+        
+    }
+}
