@@ -23,5 +23,5 @@ function updateSlide(n) {
   dots[slideIndex-1].className += " active";
 }
 
-//doe een event listener op de button dots,dot span en dan op de <article> een class togglen met display:block en display:none
+//doe een event listener op de button en dan op de <article> een class togglen met display:block en display:none
 // inline JS veranderen naar event listeners hiero
