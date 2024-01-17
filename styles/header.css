@@ -35,6 +35,64 @@ header {
   height: 200px;
 }
 
+/* || text changing animation */
+.slider-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider {
+  height: 50px;
+  overflow: hidden; /* One of the importing things for slide effect */
+}
+
+.slider div {
+  height: 50px;
+  width: 50%;
+  margin: auto;
+  padding: 2px 15px;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  color: var(--solar-orange);
+}
+
+
+.slider-text-1 {
+  animation: slide 5s linear infinite 4s;
+  -webkit-animation: slide 5s linear infinite 4s; 
+}
+
+
+@keyframes slide {
+  0% {
+    margin-top: -300px;
+  }
+  5% {
+    /* For stopping effect */
+    margin-top: -200px;
+  }
+  33% {
+    margin-top: -200px;
+  }
+  38% {
+    /* For stopping effect */
+    margin-top: -100px;
+  }
+  66% {
+    margin-top: -100px;
+  }
+  71% {
+    /* For stopping effect */
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
 /* || Medium Screen */
 @media screen and (min-width: 450px) and (max-width: 1024px) {
   nav{
@@ -131,64 +189,5 @@ header {
   overflow: hidden;
   animation: slideUp ease-out 2s forwards ;
   -webkit-animation: slideUp ease-out 2s forwards ;
-}
-
-/* || text changing animation */
-.slider-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.slider {
-  height: 50px;
-  overflow: hidden; /* One of the importing things for slide effect */
-}
-
-.slider div {
-  height: 50px;
-  width: 50%;
-  margin: auto;
-  padding: 2px 15px;
-  font-size: 40px;
-  text-align: center;
-  margin-bottom: 50px;
-  box-sizing: border-box;
-  color: var(--solar-orange);
-
-}
-
-
-.slider-text-1 {
-  animation: slide 5s linear infinite 4s;
-  -webkit-animation: slide 5s linear infinite 4s; 
-}
-
-
-@keyframes slide {
-  0% {
-    margin-top: -300px;
-  }
-  5% {
-    /* For stopping effect */
-    margin-top: -200px;
-  }
-  33% {
-    margin-top: -200px;
-  }
-  38% {
-    /* For stopping effect */
-    margin-top: -100px;
-  }
-  66% {
-    margin-top: -100px;
-  }
-  71% {
-    /* For stopping effect */
-    margin-top: 0px;
-  }
-  100% {
-    margin-top: 0px;
-  }
 }
  
