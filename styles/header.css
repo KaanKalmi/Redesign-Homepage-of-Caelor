@@ -119,15 +119,20 @@ header {
   -webkit-animation: slideUp ease-out .8s forwards ;
 }
 @keyframes slideUp {
-  0% {transform: translateY(10px); opacity:0;}
-  100% {transform: translateY(-20px); opacity:1;}
+  0% {transform: translateY(10px); filter:opacity(0);}
+  100% {transform: translateY(-20px); filter:opacity(1);}
 }
 
 @-webkit-keyframes slideUp {
-  0% {-webkit-transform: translateY(10px); opacity:0;}
-  100% {-webkit-transform: translateY(-20px); opacity:1;}
+  0% {-webkit-transform: translateY(10px); filter:opacity(0);}
+  100% {-webkit-transform: translateY(-20px); filter:opacity(1);}
 }
 
+.slideUp-2 {
+  overflow: hidden;
+  animation: slideUp ease-out 1.8s forwards ;
+  -webkit-animation: slideUp ease-out 1.8s forwards ;
+}
 /* || text changing animation */
 .slider-wrapper {
   display: flex;
@@ -137,7 +142,6 @@ header {
 
 .slider {
   height: 50px;
-  padding-left: 15px;
   overflow: hidden; /* One of the importing things for slide effect */
 }
 
@@ -156,8 +160,8 @@ header {
 
 
 .slider-text-1 {
-  animation: slide 5s linear infinite;
-  -webkit-animation: slide 5s linear infinite;
+  animation: slide 5s linear infinite 2s;
+  -webkit-animation: slide 5s linear infinite 2s; 
 }
 
 
