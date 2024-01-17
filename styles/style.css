@@ -20,6 +20,9 @@
 }
 
 /* || General Styling */
+* {
+    box-sizing: border-box;
+  }
 :root{
     --bg-color:#262e30;
     --text-color:#FFF;
