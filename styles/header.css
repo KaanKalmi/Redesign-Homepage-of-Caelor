@@ -112,11 +112,10 @@ header {
 }
 
 /* || Slide up on page reload animation */
-
 .slideUp {
   overflow: hidden;
-  animation: slideUp ease-out .8s forwards ;
-  -webkit-animation: slideUp ease-out .8s forwards ;
+  animation: slideUp ease-out 1s forwards ;
+  -webkit-animation: slideUp ease-out 1s forwards ;
 }
 @keyframes slideUp {
   0% {transform: translateY(10px); filter:opacity(0);}
@@ -130,9 +129,10 @@ header {
 
 .slideUp-2 {
   overflow: hidden;
-  animation: slideUp ease-out 1.8s forwards ;
-  -webkit-animation: slideUp ease-out 1.8s forwards ;
+  animation: slideUp ease-out 2s forwards ;
+  -webkit-animation: slideUp ease-out 2s forwards ;
 }
+
 /* || text changing animation */
 .slider-wrapper {
   display: flex;
@@ -160,8 +160,8 @@ header {
 
 
 .slider-text-1 {
-  animation: slide 5s linear infinite 2s;
-  -webkit-animation: slide 5s linear infinite 2s; 
+  animation: slide 5s linear infinite 4s;
+  -webkit-animation: slide 5s linear infinite 4s; 
 }
 
 
