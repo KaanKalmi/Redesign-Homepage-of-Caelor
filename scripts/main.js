@@ -25,3 +25,19 @@ function updateSlide(n) {
 
 //doe een event listener op de button en dan op de <article> een class togglen met display:block en display:none
 // inline JS veranderen naar event listeners hiero
+
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }})
