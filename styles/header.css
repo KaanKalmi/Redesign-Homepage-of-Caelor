@@ -51,12 +51,15 @@ header {
   height: 50px;
   width: 50%;
   margin: auto;
-  padding: 2px 15px;
+  padding: 5px 20px 20px 0;
   font-size: 40px;
   text-align: center;
   margin-bottom: 50px;
   box-sizing: border-box;
-  color: var(--solar-orange);
+  background: var(--solar-orange);
+  color: var(--text-color);
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 
