@@ -24,10 +24,10 @@
     box-sizing: border-box;
   }
 :root{
-    --bg-color:#262e30;
-    --text-color:#FFF;
-    --primary-color:#f1f4f4;
-    --secondary-color:#171717;
+    --bg-color:#171717;
+    --text-color:#F1F4F4;
+    --primary-color:#e7eced;
+    --secondary-color:#282e30;
     --error-color:#751500;
     --success-color:#006049;
     --solar-orange:#FF7300;
