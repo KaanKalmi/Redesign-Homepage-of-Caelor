@@ -51,17 +51,16 @@ header {
   height: 50px;
   width: 50%;
   margin: auto;
-  padding: 5px 20px 20px 0;
   font-size: 40px;
   text-align: center;
   margin-bottom: 50px;
   box-sizing: border-box;
-  background: var(--solar-orange);
-  color: var(--text-color);
   font-weight: bold;
   border-radius: 5px;
+  background: var(--solar-orange);
+  color: var(--text-color);
+  padding: 5px 22px 20px 0;
 }
-
 
 .slider-text-1 {
   animation: slide 5s linear infinite 4s;
@@ -193,4 +192,3 @@ header {
   animation: slideUp ease-out 2s forwards ;
   -webkit-animation: slideUp ease-out 2s forwards ;
 }
- 

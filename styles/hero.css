@@ -16,10 +16,14 @@
 }
 
 ol {
-    list-style: disc;
+    list-style: none;
     line-height: 1.2em;
     padding: .7em;
     max-width: 30ch;
+    & li:before {    
+        content: ' ◗ ';
+        color: var(--solar-orange);
+    }
 }
 
 /*Medium size screens*/
@@ -36,6 +40,7 @@ ol {
     .content {
         max-width: 75ch;
         overflow: auto;
+        margin: auto;
         line-height: 1.4em;
         font-size: 20px;
         padding: 1em;
@@ -43,10 +48,15 @@ ol {
     }
 
     ol {
-        list-style: disc;
+        list-style: none;
+        margin-left: 1em;
         line-height: 1.2em;
         padding: .7em;
-        max-width: 30ch;
+        max-width: 45ch;
+        & li:before {    
+            content: ' ◗ ';
+            color: var(--solar-orange);
+        }
     }
 }
 
