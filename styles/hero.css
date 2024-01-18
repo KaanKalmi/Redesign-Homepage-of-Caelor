@@ -2,14 +2,14 @@
 .introduction {
     height: 225px;
     text-align: center;
-    line-height: 2.6em;
+    line-height: 1.4em;
     font-size: 20px;
 }
 
 .content {
     max-width: 45ch;
     overflow: auto;
-    line-height: 1.4em;
+    line-height: 1.2em;
     font-size: 20px;
     padding: 1em;
     white-space: pre-line;
@@ -29,9 +29,10 @@ ol {
 /*Medium size screens*/
 @media screen and (min-width:450px) {
     .introduction {
+        padding-top: 20px;
         height: 250px;
         margin: auto;
-        font-size: 20px;
+        line-height: 2.4em;
     }
 
     .content {
@@ -117,7 +118,6 @@ ol {
         }
     }
 }
-
 
 .fade {
     animation-name: fade;

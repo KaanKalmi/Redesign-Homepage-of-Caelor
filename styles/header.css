@@ -1,11 +1,15 @@
 /* || Small Screen */
+.bg-image{
+  background-image: url("../assets/shapes/Caelor-Black-03-16x9.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+}
 nav{
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  background-color: var(--bg-color);
   height: 80px;
-  margin-top: 1em;
+  padding-top: 2em;
   & ul{
     list-style-type: none;
     margin: auto;
@@ -21,7 +25,7 @@ nav{
   }
 
   & .logo {
-    width: 125px;
+    width: 100px;
     margin: .2em;
   }
 }
@@ -31,8 +35,12 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--bg-color);
-  height: 200px;
+  height: 225px;
+
+  & .wordmark{
+    height: 250px;
+    width: 250px;
+  }
 }
 
 /* || text changing animation */
@@ -59,15 +67,21 @@ header {
   border-radius: 5px;
   background: var(--solar-orange);
   color: var(--text-color);
-  padding: 5px 15px;
+  padding: 15px 15px;
 }
 
 
 /* || Medium Screen */
 @media screen and (min-width: 450px) {
+  .bg-image{
+    background-image: url("../assets/shapes/Caelor-Black-03-9x16.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+  }
   nav{
     height: 120px;
-    margin-top: .5em;
+    padding-top: 1.5em;
     & ul{
       display: flex;
     }
@@ -82,15 +96,23 @@ header {
   }
   
   header {
-    height: 250px;
+    height: 300px;
+    & .wordmark{
+      height: 400px;
+      width: 400px;
+    }
   }
   .slider div {
     width: 50%;
+    padding: 5px 15px;
   }
 }
 
 /* || Large Screen */
 @media screen and (min-width: 1025px) {
+  header{
+    height: 650px;
+  }
   .slider div {
     width: 40%;
   }
