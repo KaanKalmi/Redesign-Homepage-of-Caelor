@@ -28,35 +28,20 @@ ol {
 
 /*Medium size screens*/
 @media screen and (min-width:450px) {
-
     .introduction {
         height: 250px;
         margin: auto;
-        text-align: center;
         font-size: 20px;
-        padding: 20px;
     }
 
     .content {
         max-width: 75ch;
-        overflow: auto;
         margin: auto;
-        line-height: 1.4em;
-        font-size: 20px;
-        padding: 1em;
-        white-space: pre-line;
     }
 
     ol {
-        list-style: none;
         margin-left: 1em;
-        line-height: 1.2em;
-        padding: .7em;
         max-width: 45ch;
-        & li:before {    
-            content: ' ◗ ';
-            color: var(--solar-orange);
-        }
     }
 }
 
