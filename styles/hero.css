@@ -109,7 +109,7 @@ ol {
         background-color: #8a8a8a;
         border-radius: 50%;
         display: inline-block;
-        transition: background-color 0.6s ease 10ms;
+        transition: background-color 0.6s ease 100ms;
         color: transparent;
 
         &.active, .dot:hover {
