@@ -78,4 +78,10 @@ p{
     p{
         font-size: 40px;
     }
+
+    article{
+        display: flex;
+        float: left;
+    }
 }
+

@@ -25,36 +25,12 @@ ol {
         color: var(--solar-orange);
     }
 }
-
-/*Medium size screens*/
-@media screen and (min-width:450px) {
-    .introduction {
-        padding-top: 20px;
-        height: 250px;
-        margin: auto;
-        line-height: 2.4em;
-    }
-
-    .content {
-        max-width: 75ch;
-        margin: auto;
-    }
-
-    ol {
-        margin-left: 1em;
-        max-width: 45ch;
-    }
-}
-
-
-/*Carousel*/
 .carousel-container {
-    max-width: 1000px;
+    max-width: 650px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     padding-top: 16px;
-    background-repeat: repeat;
 }
 
 .app {
@@ -119,6 +95,46 @@ ol {
     }
 }
 
+/*Medium size screens*/
+@media screen and (min-width:450px) {
+    .introduction {
+        padding-top: 20px;
+        height: 250px;
+        margin: auto;
+        line-height: 2.4em;
+    }
+
+    .content {
+        max-width: 70ch;
+        margin: auto;
+    }
+
+    ol {
+        margin-left: 1em;
+        max-width: 45ch;
+    }
+}
+
+/*XL screen*/
+@media screen and (min-width: 1440px) {
+    .carousel-container {
+        max-width: 650px;
+        position: relative;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+        padding-top: 16px;
+        float: left;
+    }
+    
+    .app {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding-top: 10px;
+        height: 120px;
+    }
+}
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
