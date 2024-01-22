@@ -111,7 +111,7 @@ header {
 /* || Large Screen */
 @media screen and (min-width: 1025px) {
   header{
-    height: 650px;
+    height: 500px;
   }
   .slider div {
     width: 40%;
@@ -125,13 +125,13 @@ header {
   -webkit-animation: slideUp ease-out 1s forwards ;
 }
 @keyframes slideUp {
-  0% {transform: translateY(10px); filter:opacity(0);}
-  100% {transform: translateY(-20px); filter:opacity(1);}
+  0% {transform: translateY(40px); filter:opacity(0);}
+  100% {transform: translateY(0px); filter:opacity(1);}
 }
 
 @-webkit-keyframes slideUp {
-  0% {-webkit-transform: translateY(10px); filter:opacity(0);}
-  100% {-webkit-transform: translateY(-20px); filter:opacity(1);}
+  0% {-webkit-transform: translateY(40px); filter:opacity(0);}
+  100% {-webkit-transform: translateY(0px); filter:opacity(1);}
 }
 
 .Animation-slideUp-delayed {

@@ -30,7 +30,7 @@ ol {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 16px;
+    padding: 2em;
 }
 
 .app {
@@ -99,7 +99,7 @@ ol {
     display: none; 
 }
   
-  .slide.active {
+.slide.active {
     display: block;
 }
 
@@ -111,6 +111,7 @@ ol {
     padding: .3em;
     color: var(--text-color);
 }
+
 /*Medium size screens*/
 @media screen and (min-width:450px) {
     .introduction {
