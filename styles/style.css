@@ -63,9 +63,6 @@ h2{
 
 p{
     font-size: 20px;
-    & strong{
-        color: var(--solar-orange);
-    }
 }
 
 @media screen and (min-width: 768px) {
@@ -77,11 +74,6 @@ p{
     }
     p{
         font-size: 40px;
-    }
-
-    article{
-        display: flex;
-        float: left;
     }
 }
 

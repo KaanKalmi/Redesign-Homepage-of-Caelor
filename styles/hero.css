@@ -95,11 +95,27 @@ ol {
     }
 }
 
+.slide {
+    display: none; 
+}
+  
+  .slide.active {
+    display: block;
+}
+
+.marketplace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: .3em;
+    color: var(--text-color);
+}
 /*Medium size screens*/
 @media screen and (min-width:450px) {
     .introduction {
         padding-top: 20px;
-        height: 250px;
+        height: 300px;
         margin: auto;
         line-height: 2.4em;
     }
@@ -115,26 +131,6 @@ ol {
     }
 }
 
-/*XL screen*/
-@media screen and (min-width: 1440px) {
-    .carousel-container {
-        max-width: 650px;
-        position: relative;
-        margin-left: 1.5em;
-        margin-right: 1.5em;
-        padding-top: 16px;
-        float: left;
-    }
-    
-    .app {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        padding-top: 10px;
-        height: 120px;
-    }
-}
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
