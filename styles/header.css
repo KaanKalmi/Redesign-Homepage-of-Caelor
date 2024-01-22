@@ -111,7 +111,7 @@ header {
 /* || Large Screen */
 @media screen and (min-width: 1025px) {
   header{
-    height: 500px;
+    height: 650px;
   }
   .slider div {
     width: 40%;
