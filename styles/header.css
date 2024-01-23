@@ -45,19 +45,19 @@ header {
 
 /* || Medium Screen */
 @media screen and (min-width: 450px) {
-  .bg-image{
-    background-image: url("../assets/shapes/Caelor-Black-03-9x16.svg");
-    background-repeat: no-repeat; background-size: cover; clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
-  }
+  .bg-image{ background-image: url("../assets/shapes/Caelor-Black-03-9x16.svg"); background-repeat: no-repeat; background-size: cover; clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%); }
+
   nav{ height: 120px; padding-top: 1.5em;  
-    & ul{ display: flex; } 
-    & a{ margin-inline-end: 2em; } 
-    & .logo { width: 175px; margin: .5em; } 
+   & ul{ display: flex; } 
+   & a{ margin-inline-end: 2em; } 
+   & .logo { width: 175px; margin: .5em; } 
   }
+
   header { height: 300px; 
-    & .wordmark{ height: 400px; width: 400px; }
+   & .wordmark{ height: 400px; width: 400px; }
   } 
-.slider div { width: 50%; padding: 5px 15px; }
+
+  .slider div { width: 50%; padding: 5px 15px; }
 }
 
 /* || Large Screen */
@@ -65,8 +65,8 @@ header {
 
 /* || vertical slider animation */
 .slider-text-1 {
-  animation: slide 5s linear infinite 4s;
-  -webkit-animation: slide 5s linear infinite 4s; 
+  animation: slide 5s linear infinite alternate 4s;
+  -webkit-animation: slide 5s linear infinite alternate 4s; 
 }
 
 

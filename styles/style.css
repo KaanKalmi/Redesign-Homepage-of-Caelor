@@ -43,21 +43,11 @@ body{
     font-size: 20px;
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-family: var(--heading);
-    text-align: center;
-}
+h1, h2, h3, h4, h5, h6{ font-family: var(--heading); text-align: center; }
 
-h1{
-    font-size: 40px;
-    color: var(--text-color);
-}
+h1{ font-size: 40px; color: var(--text-color); }
 
-h2{
-    font-size: 20px;
-    margin: .8em auto;
-    color: #00D1C3;
-}
+h2{ font-size: 20px; margin: .8em auto; color: #00D1C3; }
 
 p{ font-size: 20px; }
 
