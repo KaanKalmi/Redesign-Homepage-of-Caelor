@@ -122,8 +122,8 @@ header {
 /* || Slide up on page reload animation */
 .animation-slideUp {
   overflow: hidden;
-  animation: slideUp ease-out 1s forwards ;
-  -webkit-animation: slideUp ease-out 1s forwards ;
+  animation: slideUp ease-out 1s forwards 4s;
+  -webkit-animation: slideUp ease-out 1s forwards 4s;
 }
 @keyframes slideUp {
   0% {transform: translateY(40px); filter:opacity(0);}
@@ -135,11 +135,6 @@ header {
   100% {-webkit-transform: translateY(0px); filter:opacity(1);}
 }
 
-.Animation-slideUp-delayed {
-  overflow: hidden;
-  animation: slideUp ease-out 2s forwards ;
-  -webkit-animation: slideUp ease-out 2s forwards ;
-}
 
 /* || vertical slider animation */
 .slider-text-1 {
