@@ -6,25 +6,6 @@
     font-size: 20px;
 }
 
-.content {
-    max-width: 45ch;
-    overflow: auto;
-    line-height: 1.2em;
-    font-size: 20px;
-    padding: 1em;
-    white-space: pre-line;
-}
-
-ol {
-    list-style: none;
-    line-height: 1.2em;
-    padding: .7em;
-    max-width: 30ch;
-    & li:before {    
-        content: ' ◗ ';
-        color: var(--solar-orange);
-    }
-}
 .carousel-container {
     max-width: 650px;
     position: relative;
@@ -121,11 +102,6 @@ ol {
         line-height: 2.4em;
     }
 
-    .content {
-        max-width: 70ch;
-        margin: auto;
-    }
-
     ol {
         margin-left: 1em;
         max-width: 45ch;
@@ -138,11 +114,6 @@ ol {
 }
 
 @keyframes fade {
-    from {
-        opacity: .3
-    }
-
-    to {
-        opacity: 1
-    }
+    from { opacity: .3 }
+    to { opacity: 1 }
 }

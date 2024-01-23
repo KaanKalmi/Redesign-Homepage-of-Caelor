@@ -4,8 +4,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
-  
 }
+
 nav{
   display: flex;
   align-items: center;
@@ -118,23 +118,6 @@ header {
     width: 40%;
   }
 }
-
-/* || Slide up on page reload animation */
-.animation-slideUp {
-  overflow: hidden;
-  animation: slideUp ease-out 1s forwards 4s;
-  -webkit-animation: slideUp ease-out 1s forwards 4s;
-}
-@keyframes slideUp {
-  0% {transform: translateY(40px); filter:opacity(0);}
-  100% {transform: translateY(0px); filter:opacity(1);}
-}
-
-@-webkit-keyframes slideUp {
-  0% {-webkit-transform: translateY(40px); filter:opacity(0);}
-  100% {-webkit-transform: translateY(0px); filter:opacity(1);}
-}
-
 
 /* || vertical slider animation */
 .slider-text-1 {
