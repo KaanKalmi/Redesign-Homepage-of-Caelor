@@ -66,8 +66,7 @@ header {
   box-sizing: border-box;
   font-weight: bold;
   border-radius: 5px;
-  background: var(--solar-orange);
-  color: var(--text-color);
+  color: var(--solar-orange);
   padding: 15px 15px;
 }
 
@@ -131,21 +130,18 @@ header {
     margin-top: -300px;
   }
   5% {
-    /* For stopping effect */
     margin-top: -200px;
   }
   33% {
     margin-top: -200px;
   }
   38% {
-    /* For stopping effect */
     margin-top: -100px;
   }
   66% {
     margin-top: -100px;
   }
   71% {
-    /* For stopping effect */
     margin-top: 0px;
   }
   100% {
