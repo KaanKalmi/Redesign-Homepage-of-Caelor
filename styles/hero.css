@@ -1,4 +1,4 @@
-/*Small size screens*/
+/* || Small size screens*/
 .introduction {
     height: 225px;
     text-align: center;
@@ -39,81 +39,26 @@
     border: none;
 }
 
-.next {
-    right: 0;
-    border-radius: 1em;
-}
+.next { right: 0; border-radius: 1em; }
 
-.prev:hover, .next:hover {
-    background-color: var(--solar-orange);
-}
+.prev:hover, .next:hover { background-color: var(--solar-orange); }
 
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    bottom: 8px;
-    text-align: center;
-}
+.text { color: #f2f2f2; font-size: 15px; padding: 8px 12px; bottom: 8px; text-align: center; }
 
-.dots {
-    text-align: center;
-
-    & .dot {
-        cursor: pointer;
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        background-color: #8a8a8a;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease 100ms;
-        color: transparent;
-
-        &.active, .dot:hover {
-            background-color: #ffffff;
-        }
+.dots { text-align: center;
+    & .dot { cursor: pointer; height: 15px; width: 15px; margin: 0 2px; background-color: #8a8a8a; border-radius: 50%;  display: inline-block; transition: background-color 0.6s ease 100ms;  color: transparent;
+     &.active, .dot:hover { background-color: #ffffff; }
     }
 }
 
-.slide {
-    display: none; 
-}
-  
-.slide.active {
-    display: block;
+.slide { display: none; }
+.slide.active { display: block; }
+.marketplace { display: flex; justify-content: center; align-items: center; margin: auto; padding: .3em; color: var(--text-color);
 }
 
-.marketplace {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: .3em;
-    color: var(--text-color);
-}
+/* || Medium size screens*/
+@media screen and (min-width:450px) { .introduction { padding-top: 20px; height: 300px; margin: auto; line-height: 2.4em; } }
 
-/*Medium size screens*/
-@media screen and (min-width:450px) {
-    .introduction {
-        padding-top: 20px;
-        height: 300px;
-        margin: auto;
-        line-height: 2.4em;
-    }
-
-    ol {
-        margin-left: 1em;
-        max-width: 45ch;
-    }
-}
-
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from { opacity: .3 }
-    to { opacity: 1 }
-}
+/* || Animation*/
+.fade { animation: fade 1.5s; }
+@keyframes fade { from { opacity: .3 } to { opacity: 1 } }

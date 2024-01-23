@@ -7,41 +7,16 @@
 }
 
 nav{
-  display: flex;
-  align-items: center;
-  height: 80px;
-  padding-top: 2em;
-  & ul{
-    list-style-type: none;
-    margin: auto;
-  }
-  & li{
-    margin-block: .5em;
-  }
-  & a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: var(--text-color);
-    font-weight: 600;
-  }
-
-  & .logo {
-    width: 100px;
-    margin: .2em;
-  }
+   display: flex; align-items: center; height: 80px; padding-top: 2em;
+    & ul{ list-style-type: none; margin: auto; }
+    & li{ margin-block: .5em; }
+    & a{ text-decoration: none; text-transform: uppercase; color: var(--text-color); font-weight: 600; }
+    & .logo { width: 100px; margin: .2em; }
 }
 
 header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 225px;
-
-  & .wordmark{
-    height: 250px;
-    width: 250px;
-  }
+  display: flex; flex-direction: column; justify-content: center; align-items: center; height: 225px;
+    & .wordmark{ height: 250px; width: 250px; } 
 }
 
 /* || text changing animation */
@@ -51,10 +26,7 @@ header {
   justify-content: center;
 }
 
-.slider {
-  height: 50px;
-  overflow: hidden; 
-}
+.slider { height: 50px; overflow: hidden; }
 
 .slider div {
   height: 50px;
@@ -75,48 +47,21 @@ header {
 @media screen and (min-width: 450px) {
   .bg-image{
     background-image: url("../assets/shapes/Caelor-Black-03-9x16.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    background-repeat: no-repeat; background-size: cover; clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
   }
-  nav{
-    height: 120px;
-    padding-top: 1.5em;
-    & ul{
-      display: flex;
-    }
-    & a{
-      margin-inline-end: 2em;
-    }
-  
-    & .logo {
-      width: 175px;
-      margin: .5em;
-    }
+  nav{ height: 120px; padding-top: 1.5em;  
+    & ul{ display: flex; } 
+    & a{ margin-inline-end: 2em; } 
+    & .logo { width: 175px; margin: .5em; } 
   }
-  
-  header {
-    height: 300px;
-    & .wordmark{
-      height: 400px;
-      width: 400px;
-    }
-  }
-  .slider div {
-    width: 50%;
-    padding: 5px 15px;
-  }
+  header { height: 300px; 
+    & .wordmark{ height: 400px; width: 400px; }
+  } 
+.slider div { width: 50%; padding: 5px 15px; }
 }
 
 /* || Large Screen */
-@media screen and (min-width: 1025px) {
-  header{
-    height: 500px;
-  }
-  .slider div {
-    width: 40%;
-  }
-}
+@media screen and (min-width: 1025px) { header{ height: 500px; } .slider div { width: 40%; } }
 
 /* || vertical slider animation */
 .slider-text-1 {
@@ -126,25 +71,8 @@ header {
 
 
 @keyframes slide {
-  0% {
-    margin-top: -300px;
-  }
-  5% {
-    margin-top: -200px;
-  }
-  33% {
-    margin-top: -200px;
-  }
-  38% {
-    margin-top: -100px;
-  }
-  66% {
-    margin-top: -100px;
-  }
-  71% {
-    margin-top: 0px;
-  }
-  100% {
-    margin-top: 0px;
-  }
+  0% { margin-top: -300px; } 
+  5% { margin-top: -200px; }33% { margin-top: -200px; }
+  38% { margin-top: -100px; } 66% { margin-top: -100px; }
+  71% { margin-top: 0px; } 100% { margin-top: 0px; }
 }
