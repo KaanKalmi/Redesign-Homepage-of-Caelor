@@ -7,7 +7,7 @@
 }
 
 .carousel-container {
-    max-width: 650px;
+    max-width: 350px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -26,7 +26,7 @@
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 60%;
+    top: 50%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
@@ -39,26 +39,168 @@
     border: none;
 }
 
-.next { right: 0; border-radius: 1em; }
+.next {
+    right: 35px;
+}
 
-.prev:hover, .next:hover { background-color: var(--solar-orange); }
+.prev:hover, .next:hover {
+    background-color: var(--solar-orange);
+}
 
-.text { color: #f2f2f2; font-size: 15px; padding: 8px 12px; bottom: 8px; text-align: center; }
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    bottom: 8px;
+    text-align: center;
+}
 
-.dots { text-align: center;
-    & .dot { cursor: pointer; height: 15px; width: 15px; margin: 0 2px; background-color: #8a8a8a; border-radius: 50%;  display: inline-block; transition: background-color 0.6s ease 100ms;  color: transparent;
-     &.active, .dot:hover { background-color: #ffffff; }
+.dots {
+    text-align: center;
+
+    & .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #8a8a8a;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease 100ms;
+        color: transparent;
+
+        &.active, .dot:hover {
+            background-color: #ffffff;
+        }
+        }
+        & .dot-2 {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #8a8a8a;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease 100ms;
+            color: transparent;
+            &.active, .dot-2:hover {
+                background-color: #ffffff;
+        }
+        }
+}
+
+.carousel-container-2 {
+    max-width: 350px;
+    position: relative;
+    margin: auto;
+    padding: 2em;
+  
+    & .prev-2, & .next-2 {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -25px;
+      padding: 16px;
+      background-color: transparent;
+      color: white;
+      font-weight: 800;
+      font-size: 20px;
+      transition: 0.8s ease;
+      border-radius: 1em;
+      border: none;
     }
+  
+    & .next-2 {
+      right: 35px;
+    }
+  
+    & .prev-2 {
+      left: 35px;
+    }
+  }
+.slide {
+    display: none;
 }
 
-.slide { display: none; }
-.slide.active { display: block; }
-.marketplace { display: flex; justify-content: center; align-items: center; margin: auto; padding: .3em; color: var(--text-color);
+.slide.active {
+    display: block;
 }
+
+.marketplace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: .3em;
+    color: var(--text-color);
+}
+
+
 
 /* || Medium size screens*/
-@media screen and (min-width:450px) { .introduction { padding-top: 20px; height: 300px; margin: auto; line-height: 2.4em; } }
+@media screen and (min-width:450px) {
+    .introduction {
+        padding-top: 20px;
+        height: 300px;
+        margin: auto;
+        line-height: 2.4em;
+    }
+    .carousel-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: auto;
+    }
+    .carousel-container {
+        max-width: 350px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2em;
+        flex: 1 0 auto;
+    }
+    .carousel-container-2 {
+        max-width: 350px;
+        position: relative;
+        margin: auto;
+        padding: 2em;
+        flex: 1 0 auto;
+      
+        & .prev-2, & .next-2 {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          margin-top: -25px;
+          padding: 16px;
+          background-color: transparent;
+          color: white;
+          font-weight: 800;
+          font-size: 20px;
+          transition: 0.8s ease;
+          border-radius: 1em;
+          border: none;
+        }
+      
+        & .next-2 {
+          right: 35px;
+        }
+      
+        & .prev-2 {
+          left: 35px;
+        }
+      }
+
+
+}
 
 /* || Animation*/
-.fade { animation: fade 1.5s; }
-@keyframes fade { from { opacity: .3 } to { opacity: 1 } }
+.fade {
+    animation: fade 1.5s;
+}
+
+@keyframes fade {
+    from { opacity: .3 }
+    to { opacity: 1 }
+}
