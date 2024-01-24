@@ -43,7 +43,7 @@ body{
     font-size: 20px;
 }
 
-h1, h2, h3, h4, h5, h6{ font-family: var(--heading); text-align: center; letter-spacing: -1.2px; }
+h1, h2, h3, h4, h5, h6{ font-family: var(--heading); text-align: left; letter-spacing: -1.2px; }
 h1{ font-size: 40px; color: var(--text-color); text-transform: capitalize;}
 h2{ font-size: 40px; margin: .8em auto; color: var(--text-color); }
 h3{ font-size: 30px; margin: .8em auto; color: var(--text-color); }
