@@ -3,7 +3,6 @@
   background-image: url("../assets/shapes/Caelor-Black-03-16x9.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
 }
 
 nav{
@@ -45,7 +44,7 @@ header {
 
 /* || Medium Screen */
 @media screen and (min-width: 450px) {
-  .bg-image{ background-image: url("../assets/shapes/Caelor-Black-03-9x16.svg"); background-repeat: no-repeat; background-size: cover; clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%); }
+  .bg-image{ background-image: url("../assets/shapes/Caelor-Black-03-9x16.svg"); background-repeat: no-repeat; background-size: cover; }
 
   nav{ height: 120px; padding-top: 1.5em;  
    & ul{ display: flex; } 

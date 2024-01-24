@@ -158,18 +158,18 @@
     margin: auto;
     }
     .carousel-container {
-        max-width: 350px;
+        max-width: 450px;
         position: relative;
         margin: auto;
-        margin-bottom: 4em;
+        margin-bottom: 6em;
         padding: 2em;
         flex: 1 0 auto;
     }
     .carousel-container-2 {
-        max-width: 350px;
+        max-width: 450px;
         position: relative;
         margin: auto;
-        margin-bottom: 4em;
+        margin-bottom: 6em;
         padding: 2em;
         flex: 1 0 auto;
       

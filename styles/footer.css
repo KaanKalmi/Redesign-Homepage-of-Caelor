@@ -1,5 +1,5 @@
 /* || Small Screen */
-footer { display: flex; flex-direction: column; justify-content: center; }
+footer { display: flex; flex-direction: column; justify-content: center; border-top: 1px solid var(--primary-color);}
 
 .footer-element { padding-left: 16px; padding-right: 16px; font-size: 12px; list-style-type: none; text-decoration: none;
      & dd { margin-left: 0; line-height: 1.6em; }
