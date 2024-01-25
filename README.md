@@ -6,7 +6,7 @@ Newly designed home page for Caelor
 
 ## Description
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-With the new homepage made for Caelor you can scrol through their apps for Confluence and Jira, all you have to do is navigate through the carousel!
+With the new homepage made for Caelor you can scroll through their apps for Confluence and Jira, all you have to do is navigate through the carousel!
 
 The new design makes the site less straining on your eyes by going with a darker theme and less vibrant colors, while still being pleasant for the eye.
 
@@ -20,7 +20,7 @@ Click  **[Here](https://kaankalmi.github.io/the-startup-responsive-interactieve-
 ## Characteristics 
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
 - HTML: Semantic elements
-- CSS: media queries, custom properties, keyframes & animation, nesting, importing and font-faces
+- CSS: media queries, custom properties, keyframes & animation, nesting, importing and font-faces, responsive layout
 - JS: micro-interactions, event listeners, classtoggle, DOM Manipulation
 
 ## License
